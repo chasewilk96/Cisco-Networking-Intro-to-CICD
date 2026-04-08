@@ -3,7 +3,7 @@
   gather_facts: no
 
   tasks:
-    - name: Gather device version info
+    - name: Gather device version
       cisco.ios.ios_command:
         commands:
           - show version
